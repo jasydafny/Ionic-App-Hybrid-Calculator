@@ -1,3 +1,28 @@
 page-about{
+    
+    .All{
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .Label{
+        // width: 90%;
+        // position: absolute;
+        bottom: 70vw;
+        left: 10px;
+    }
 
+    .Position{
+        position: absolute;
+        bottom: 0%;
+        left: 3px;
+    }
+
+    .igual{
+        display: flex;
+    }
 }
