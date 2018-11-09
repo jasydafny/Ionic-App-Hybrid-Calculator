@@ -1,0 +1,109 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Calculator
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item class="Label">
+    <ion-label></ion-label>
+    <ion-input type="text" placeholder="0" name="display" [(ngModel)]="result"></ion-input>
+  </ion-item>
+  <ion-grid class="All">
+    <ion-row>
+      <ion-col>
+        <button id="Number" ion-button color="light" full (click)="num(7)">
+          7
+        </button>
+      </ion-col>
+      <ion-col>
+        <button id="Number" ion-button color="light" full (click)="num(8)">
+          8
+        </button>
+      </ion-col>
+      <ion-col>
+        <button id="Number" ion-button color="light" full (click)="num(9)">
+          9
+        </button>
+      </ion-col>
+      <ion-col>
+        <button id="clear" ion-button color="light" full (click)="clear(C)">
+          C
+        </button>
+      </ion-col>
+      <ion-col>
+        <button id="operations" ion-button color="operations" full (click)="arit('/')">
+          /
+        </button>
+      </ion-col>
+    </ion-row>
+    <ion-row class="Number">
+      <ion-col>
+        <button id="Number" ion-button color="light" full (click)="num(4)">
+          4
+        </button>
+      </ion-col>
+      <ion-col>
+        <button id="Number" ion-button color="light" full (click)="num(5)">
+          5
+        </button>
+      </ion-col>
+      <ion-col>
+        <button id="Number" ion-button color="light" full (click)="num(6)">
+          6
+        </button>
+      </ion-col>
+      <ion-col>
+        <button id="Number" ion-button color="light" full (click)="num('.')">
+          .
+        </button>
+      </ion-col>
+      <ion-col>
+        <button id="operations" ion-button color="operations" full (click)="arit('*')">
+          *
+        </button>
+      </ion-col>
+    </ion-row>
+    <ion-row class="Number">
+      <ion-col>
+        <button id="Number" ion-button color="light" full (click)="num(1)">
+          1
+        </button>
+      </ion-col>
+      <ion-col>
+        <button id="Number" ion-button color="light" full (click)="num(2)">
+          2
+        </button>
+      </ion-col>
+      <ion-col>
+        <button id="Number" ion-button color="light" full (click)="num(3)">
+          3
+        </button>
+      </ion-col>
+      <ion-col>
+        <button id="Number" ion-button color="light" full (click)="num(0)">
+          0
+        </button>
+      </ion-col>
+      <ion-col>
+        <button id="operations" ion-button color="operations" full (click)="arit('-')">
+          -
+        </button>
+      </ion-col>
+    </ion-row>
+    <ion-row class="Number">
+      <ion-col class="igual">
+        <button id="operations" ion-button color="operations" full (click)="igual('=')">
+          =
+        </button>
+      </ion-col>
+      <ion-col>
+        <button id="operations" ion-button color="operations" full (click)="arit('+')">
+          +
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
