@@ -1,1 +1,1 @@
-# -Ionic-App-Hybrid-Calculator
+# Ionic-App-Hybrid-Calculator
