@@ -1,28 +1,27 @@
-page-about{
-    
+page-calculator{
     .All{
         position: absolute;
         left: 0;
-        top: 50%;
+        bottom: 3%;
         width: 100%;
         text-align: center;
         font-size: 18px;
     }
     
     .Label{
-        // width: 90%;
-        // position: absolute;
-        bottom: 70vw;
+        width: 90%;
+        position: absolute;
+        bottom: 74vw;
         left: 10px;
     }
 
-    .Position{
-        position: absolute;
-        bottom: 0%;
-        left: 3px;
+    p{
+        font-family: sans-serif;
+        text-align: center;
+        top: 0%;
+        font-weight: normal;
+        font-style: normal;
+        color: grey;
     }
 
-    .igual{
-        display: flex;
-    }
 }
